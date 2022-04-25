@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ConsoleApp1.Plugins\ConsoleApp1.Plugins.csproj" />
+      <ProjectReference Include="..\ConsoleApp2.Register\ConsoleApp2.Register.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="RavenDB.Client" Version="5.3.102" />
+    </ItemGroup>
+
+</Project>
